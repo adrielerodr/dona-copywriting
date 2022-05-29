@@ -5,12 +5,16 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #ede9e8;
   }
 `
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: '#d93d2b',
   },
 }
 
