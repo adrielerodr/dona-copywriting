@@ -1,4 +1,7 @@
 {
+  "name": "portfolio-web",
+  "version": "1.0.0",
+  "description": "Adriele Rodrigues portfolio",
   "private": true,
   "scripts": {
     "dev": "next",
