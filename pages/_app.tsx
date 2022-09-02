@@ -8,13 +8,14 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: #ede9e8;
+    background-color: #edd1d1;
   }
 `
 
 const theme = {
   colors: {
-    primary: '#d93d2b',
+    primary: '#f13232',
+    secondary: '#f88383',
   },
 }
 

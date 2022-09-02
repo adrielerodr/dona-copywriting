@@ -2,13 +2,20 @@ import styled from 'styled-components'
 
 const Title = styled.h1`
   font-size: 60px;
+  text-align: center;
   color: ${({ theme }) => theme.colors.primary};
+`;
+
+const SubTitle = styled.h3`
+  font-size: 50px;
+  text-align: center;
+  color: ${({ theme }) => theme.colors.secondary};
 `;
 
 const ContactWrapper = styled.ul`
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 `;
 
 const ContactLink = styled.li`
@@ -27,10 +34,9 @@ const ContactLink = styled.li`
 export default function Home() {
   return <>
     <Title>Adriele Rodrigues</Title>
+    <SubTitle>Copywriting para Mulheres</SubTitle>
     <ContactWrapper>
-      <ContactLink><a target="_blank" href="https://www.linkedin.com/in/adrielerodr">LinkdIn</a></ContactLink>
-      <ContactLink><a target="_blank" href="https://github.com/adrielerodr">GitHub</a></ContactLink>
-      <ContactLink><a target="_blank" href="https://www.instagram.com/adrielerodr/">Instagram</a></ContactLink>
+      <ContactLink><a target="_blank" href="https://www.instagram.com/donacopywriting/">Instagram</a></ContactLink>
     </ContactWrapper>
   </>
 }
